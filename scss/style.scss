@@ -1,0 +1,132 @@
+/*Обнуление*/
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+*,
+*:before,
+*:after {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+:focus,
+:active {
+	outline: none;
+}
+
+a:focus,
+a:active {
+	outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+	display: block;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button {
+	cursor: pointer;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: inherit;
+	font-weight: inherit;
+}
+
+/*--------------------*/
+body{
+border: 2px solid#000;
+background-image: url(../img/about/666.jpg);
+}
+.conteiner {
+	color: aliceblue;
+}
+.about {
+	text-align: center;
+	font-size: 50px;
+}
+.images {
+}
+.imageson{
+	display: inline-block;
+	background-repeat: round;
+	width: 300px;
+	height: 300px;
+	background-image: url("../img/about/1212.jpg");
+	&:hover{
+		background-image: url("../img/about/1515.jpg");
+		background-repeat: round;
+		width: 400px;
+		height: 300px;
+	}
+}
+.text {
+	display: inline-block;
+	border: 1px solid#000;
+	margin-left: 400px;
+	margin-top: 50px;
+	font-size: 30px;
+	padding-right: 500px;
+}
+.mikit{
+	color: rgb(0, 130, 244);
+	&:hover{
+		color: red;
+		box-shadow: 0 0 10px red;
+	}
+}
